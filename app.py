@@ -3,8 +3,8 @@ import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the trained model and vectorizer
-model_path = "model/fake_news_model.pkl"
-vectorizer_path = "model/vectorizer.pkl"
+model_path = "model/fake_news_model .pkl"
+vectorizer_path = "model/vectorizer .pkl"
 
 with open(model_path, 'rb') as model_file:
     model = pickle.load(model_file)
